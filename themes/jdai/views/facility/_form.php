@@ -32,7 +32,7 @@ $id = $model->id;
 				<?php echo $form->dropDownList(
 						$model,
 						'type',
-						array('secure_detention'=>'Secure Detention', 'atd'=>'ATD'), 
+						array('secure_detention'=>'Secure Detention', 'atd'=>'Alternative to Detention'),
 						array(
 							'prompt'=>'',
 						)

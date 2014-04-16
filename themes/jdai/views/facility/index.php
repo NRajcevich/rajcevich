@@ -61,8 +61,8 @@
 				),
 				'type' => array(
 					'name' => 'type',
-					'value' => '($data->type=="secure_detention"?"Secure Detention":"ATD")',
-					'filter' => array('secure_detention' => 'Secure Detention', 'atd' => 'ATD'),
+					'value' => '($data->type=="secure_detention"?"Secure Detention":"Alternative to Detention")',
+					'filter' => array('secure_detention' => 'Secure Detention', 'atd' => 'Alternative to Detention'),
 				),
 				'name',
 				'street1',
