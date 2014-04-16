@@ -62,7 +62,7 @@ class Facility extends CActiveRecord
             'zipcode' => 'ZIP Code',
 			'state' => 'State',
 			'county' => 'County',
-			'capacity' => 'Bed Capacity',
+			'capacity' => 'Capacity',
 		);
 	}
 
