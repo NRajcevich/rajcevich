@@ -130,7 +130,7 @@ class DetentionAF extends CActiveRecord
 			'number_prior_technical_violations_filed' => 'Number of Prior Technical Violations Filed',
 			'number_prior_deliquency_cases_adjudicated' => 'Number of Prior Deliquency Cases Adjudicated',
 			'number_prior_adjudications_ab_felony' => 'Number of Prior Adjudications for A-B Felony',
-            'number_of_prior_stays_on_probation' => 'Number of Prior Stays on Probation',
+            'number_of_prior_stays_on_probation' => 'Number of Prior Times placed on Probation',
 			'most_severe_prior_adjudication' => 'Most Severe Prior Adjudication',
             'prior_adjudication_type' => 'Prior Adjudication Type',
 			'number_warants_issued_fta' => 'Number of Prior Times Bench Warrants Issued for FTA (At Time of Detention Decision)',
