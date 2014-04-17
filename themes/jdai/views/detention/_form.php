@@ -1201,7 +1201,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
             <div data-field-span="1">
                 <?php echo $form->labelEx($model,'refferal_other'); ?>
                 <label class="checkbox"><?php echo $form->checkBox($model,'refferal_other'); ?> Other</label>
-                <?php echo $form->textField($model,'refferal_other_label',array(  'placeholder' => 'Write Evaluation')); ?>
+                <?php echo $form->textField($model,'refferal_other_label',array(  'placeholder' => 'Write Type of Evaluation')); ?>
                 <?php echo $form->error($model,'refferal_other'); ?>
             </div>
             <div data-field-span="1">
