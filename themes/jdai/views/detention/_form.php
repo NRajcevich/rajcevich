@@ -400,8 +400,8 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                 <?php echo $form->dropDownList($model,'youth_location_leading_to_admission',
                     array(
                         'lia' => 'Law Enforcement --> Intake --> Admitted to Alternative',
-                        'hcra' => 'Home --> Court --> Remand to Detent to Await Alt --> Admit to Alt**',
-                        'dca' => 'Detention --> Court --> Admitted to Alternative**',
+                        'hcra' => 'Home --> Court --> Remand to Detent to Await Alt --> Admit to Alt',
+                        'dca' => 'Detention --> Court --> Admitted to Alternative',
                         'hca' => 'Home --> Court --> Admitted to Alternative',
                         'Other' => 'Other',
                     ),array(
@@ -420,7 +420,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                     array(
                         'ROR Pre-Disposition' => 'ROR Pre-Disposition',
                         'Detention Alternative' => 'Detention Alternative',
-                        'To Serve Disposition/To Dispositional Placement *' => 'To Serve Disposition/To Dispositional Placement *',
+                        'To Serve Disposition/To Dispositional Placement' => 'To Serve Disposition/To Dispositional Placement',
                         'Parents/Other Adult Pre-Disposition' => 'Parents/Other Adult Pre-Disposition',
                         'Transferred to Jail/Other Detention Facility' => 'Transferred to Jail/Other Detention Facility',
                         'Charges Diverted - Released Home' => 'Charges Diverted - Released Home',
