@@ -784,7 +784,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
             </div>
         </div>
 
-        <div data-row-span="3">
+        <div data-row-span="2">
             <div data-field-span="1">
                 <?php echo $form->labelEx($model,'adjudication_status'); ?>
                 <?php
@@ -817,24 +817,6 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                 ));
                 ?>
                 <?php echo $form->error($model,'disposition_date'); ?>
-            </div>
-            <div data-field-span="1">
-                <?php echo $form->labelEx($model,'final_court_ordered_disposition'); ?>
-                <?php
-                echo $form->dropDownList($model,'final_court_ordered_disposition',
-                    array(
-                        'Adjudication Pending' => 'Adjudication Pending',
-                        'Disposition Pending' => 'Disposition Pending',
-                        'Dismissed' => 'Dismissed',
-                        'Deferred Disposition' => 'Deferred Disposition',
-                        'Found True' => 'Found True',
-                        'Waiver Granted' => 'Waiver Granted'
-                    ),array(
-                        'prompt' => ''
-                    )
-                );
-                ?>
-                <?php echo $form->error($model,'final_court_ordered_disposition'); ?>
             </div>
         </div>
     </fieldset>
