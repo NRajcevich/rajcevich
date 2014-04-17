@@ -139,7 +139,7 @@ class DetentionSF extends CActiveRecord
 			'number_warants_issued_fta' => 'Number of Prior Times Bench Warrants Issued for FTA (At Time of Detention Decision)',
 			'number_open_petitions_pending_on_day' => 'Number of Open Petitions Pending Adjudication on Day of Snapshot',
 			'number_prior_secure_detentions' => 'Number of Prior Secure Detentions',
-			'number_times_admitted_detention_alternative' => 'Number of Times Admitted to Detention Alternative',
+			'number_times_admitted_detention_alternative' => 'Number of Times Admitted to Detention Alternative (Pre-Adjudication)',
 			'number_failed_from_detention_alternative' => 'Number of Times Failed/Removed from Detention Alternative',
 			'prior_awol_runaway_history' => 'Prior AWOL/Runaway History',
 			'awol_runaway_at_time_detention' => 'AWOL/Runaway at Time of Detention',
