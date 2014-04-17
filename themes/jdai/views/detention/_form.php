@@ -1712,6 +1712,7 @@ $cs->registerScriptFile(Yii::app()->theme->baseUrl.'/js/custom.js');
                 $(this).parent('label').parent('div[data-field-span]').parent('div[data-row-span]').find('div[data-field-span]:gt(0) input').attr('disabled', false);
             }else{
                 $(this).parent('label').parent('div[data-field-span]').attr('data-field-span','3');
+				$(this).parent('label').parent('div[data-field-span]').parent('div[data-row-span]').find('div[data-field-span]:eq(0) input').val("");
                 $(this).parent('label').parent('div[data-field-span]').parent('div[data-row-span]').find('div[data-field-span]:gt(0)').hide();
                 $(this).parent('label').parent('div[data-field-span]').parent('div[data-row-span]').find('div[data-field-span]:gt(0) input').attr('disabled', true);
             }
