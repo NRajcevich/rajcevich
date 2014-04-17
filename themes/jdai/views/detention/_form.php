@@ -1050,6 +1050,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                             'None'=>'None',
                             'Yes-Outpatient Only'=>'Yes-Outpatient Only',
                             'Yes-Inpatient/Residential/Hospital'=>'Yes-Inpatient/Residential/Hospital',
+							'Yes-Both'=>'Yes-Both',
                             'Unknown/Other'=>'Unknown/Other',
                         ),array(
                             'prompt' => ''
