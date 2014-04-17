@@ -598,7 +598,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                             'Shelter Care' => 'Shelter Care',
                             'JDC' => 'JDC',
                             'Residential' => 'Residential',
-                            'iDOC' => 'iDOC',
+                            'IDOC' => 'IDOC',
                             'Adult Jail' => 'Adult Jail',
                             'Unknown/Other' => 'Unknown/Other',
                         ),array(
