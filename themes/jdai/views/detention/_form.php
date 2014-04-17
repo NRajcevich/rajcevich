@@ -577,7 +577,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                             'Charges Dismissed - Released Home'=>'Charges Dismissed - Released Home',
                             'Transfer to Other Detention Facility'=>'Transfer to Other Detention Facility',
                             'Transfer to Jail'=>'Transfer to Jail',
-                            'To Serve Disposition/To Dispositional Placement *'=>'To Serve Disposition/To Dispositional Placement *',
+                            'To Serve Disposition/To Dispositional Placement'=>'To Serve Disposition/To Dispositional Placement',
                             'Unknown/Other' => 'Unknown/Other',
                             '(No Alternative to Detention Program)' => '(No Alternative to Detention Program)'
                         ),array(
