@@ -42,7 +42,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, first_name, last_name, access, state, county, block', 'required'),
+			array('username, first_name, last_name, access, state, county, block, new_password, new_confirm', 'required'),
 			array('username', 'length', 'max'=>20),
 			array('username', 'match', 'pattern'=>'#^[a-zA-Z0-9_\.-]+$#', 'message'=>'Username contains illegal characters!'),
 			array('email', 'email', 'message'=>'Incorrect E-mail address format!'),
