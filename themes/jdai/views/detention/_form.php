@@ -573,15 +573,14 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                     <?php
                     echo $form->dropDownList($model,'release_to',
                         array(
-                            'Parents/Other Adult Pre-Disposition' => 'Parents/Other Adult Pre-Disposition',
+                            'Parents/Other Adult' => 'Parents/Other Adult',
                             'Detention Alternative'=>'Detention Alternative',
-                            'Charges Diverted - Released Home'=>'Charges Diverted - Released Home',
-                            'Charges Dismissed - Released Home'=>'Charges Dismissed - Released Home',
                             'Transfer to Other Detention Facility'=>'Transfer to Other Detention Facility',
                             'Transfer to Jail'=>'Transfer to Jail',
-                            'To Serve Disposition/To Dispositional Placement'=>'To Serve Disposition/To Dispositional Placement',
-                            'Unknown/Other' => 'Unknown/Other',
-                            '(No Alternative to Detention Program)' => '(No Alternative to Detention Program)'
+							'Residential Placement'=>'Residential Placement',
+                            'Shelter Care'=>'Shelter Care',
+							'IDOC' => 'IDOC',
+                            'Unknown/Other' => 'Unknown/Other'
                         ),array(
                             'prompt' => ''
                         )
