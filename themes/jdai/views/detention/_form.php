@@ -441,7 +441,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                         'Residential' => 'Residential',
                         'JDC' => 'JDC',
                         'IDOC' => 'IDOC',
-                        'Adult' => 'Adult',
+                        'Adult Facility' => 'Adult Facility',
                         'Unknown/Other' => 'Unknown/Other',
                     ),array(
                         'prompt' => ''
