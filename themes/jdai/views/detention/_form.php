@@ -438,6 +438,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                 <?php
                 echo $form->dropDownList($model,'specify_where',
                     array(
+						'Home' => 'Home',
                         'Residential' => 'Residential',
                         'JDC' => 'JDC',
                         'IDOC' => 'IDOC',
@@ -592,6 +593,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                     <?php
                     echo $form->dropDownList($model,'specify_where',
                         array(
+							'Home' => 'Home',
                             'Shelter Care' => 'Shelter Care',
                             'JDC' => 'JDC',
                             'Residential' => 'Residential',
