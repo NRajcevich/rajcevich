@@ -105,7 +105,7 @@ class DetentionSF extends CActiveRecord
 			'race' => 'Race',
 			'gender' => 'Gender',
 			'ethnicity' => 'Ethnicity',
-			'incident' => 'Incident',
+			'incident' => 'Incident Location',
 			'residence' => 'Residence',
 			'residence_county' => 'County of Residence',
 			'admission_date' => 'Admission Date',
