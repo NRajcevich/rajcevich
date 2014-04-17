@@ -1089,6 +1089,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                             'None'=>'None',
                             'Yes-Prior Only'=>'Yes-Prior Only',
                             'Yes-Current'=>'Yes-Current',
+							'Yes-Both'=>'Yes-Both',
                             'Unknown/Other'=>'Unknown/Other',
                         ),array(
                             'prompt' => 'Select'
