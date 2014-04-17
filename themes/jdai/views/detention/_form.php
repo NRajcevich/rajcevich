@@ -515,6 +515,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
                             'Domestic'=>'Domestic',
                             'School'=>'School',
                             'Law Enforcement' => 'Law Enforcement',
+							'Out of Home Placement' => 'Out of Home Placement',
                             'Unknown/Other'=>'Unknown/Other',
                         ),array(
                             'prompt' => ''
