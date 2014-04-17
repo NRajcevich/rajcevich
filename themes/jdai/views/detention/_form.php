@@ -1533,7 +1533,7 @@ $this_user = User::model()->findByPk(Yii::app()->user->id);
             <div data-field-span="1">
                 <?php echo $form->labelEx($model,'dispositional_other'); ?>
                 <label class="checkbox"><?php echo $form->checkBox($model,'dispositional_other'); ?> Other</label>
-                <?php echo $form->textField($model,'dispositional_other_label',array(  'placeholder' => 'Write Evaluation')); ?>
+                <?php echo $form->textField($model,'dispositional_other_label',array(  'placeholder' => 'Enter other Disposition Type')); ?>
                 <?php echo $form->error($model,'dispositional_other'); ?>
             </div>
             <div data-field-span="1">
